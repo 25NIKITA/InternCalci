@@ -1,0 +1,92 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+    background: #ecf0f3;
+}
+
+.container {
+    margin-left: 1.0em;
+    padding: 30px;
+    border-radius: 40px;
+    box-shadow: 13px 13px 20px #6e6e6e,
+        -13px -13px 20px #696767;
+}
+
+.content {
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row button {
+    width: 62px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    margin: 12px;
+    border-radius:10px;
+    transition: 0.5s;
+    box-shadow: 5px 5px 8px #56057920,
+        -5px -5px 8px #f4f4f4;
+}
+
+.row button:hover {
+    box-shadow: inset 5px 5px 8px rgba(21, 21, 21, 0.4),
+        inset -5px -5px 8px #fff;
+    background: #ffffff;
+}
+
+.display #screen {
+    margin-bottom: .5em;
+    width: 505px;
+    height: 70px;
+    font-size: 40px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: 0.7em;
+    background: #ecf0f3;
+    border-radius: px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+        inset -8px -8px 8px #ffffff;
+}
+
+#eval {
+    background: #33ccff;
+    color: #fff;
+
+}
+
+#eval:hover {
+    box-shadow: inset 5px 5px 8px rgba(67, 92, 142, 0.664),
+        inset -5px -5px 8px #33ccff;
+}
+
+#ac {
+    background: #5f158e;
+    color: #fff;
+}
+
+#ac:hover {
+    box-shadow: inset 5px 5px 8px #2f1b3d,
+        inset -5px -5px 8px #5f158e;
+}
+
+#ce {
+    background: #ff3399;
+    color: #fff;
+}
+
+#ce:hover {
+    box-shadow: inset 5px 5px 8px #9e3067,
+        inset -5px -5px 8px #ff3399;
+}
